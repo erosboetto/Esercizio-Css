@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+}
+main{
+    margin-left: 4rem
+}
+.logo img{
+    width: 5rem;
+    height: auto;
+}
+.user{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+.icone{
+    margin-right: 1rem;
+}
+.carousel-control-prev{
+    width: 5rem;
+}
+.carousel-control-next{
+    width: 5rem;
+}
+main img{
+    z-index: 2;
+    transition: transform .2s;
+}
+main img:hover{
+    transform: scale(1.20); 
+}
