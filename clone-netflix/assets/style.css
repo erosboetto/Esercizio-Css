@@ -20,14 +20,35 @@ main{
 }
 .carousel-control-prev{
     width: 5rem;
+     margin-left: -4rem;
+/*  height: 7.2rem;
+    margin-top: 0.8rem; */
 }
 .carousel-control-next{
     width: 5rem;
-}
-main img{
-    z-index: 2;
-    transition: transform .2s;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 main img:hover{
     transform: scale(1.20); 
+}
+.row {
+    height: 10rem;
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+main div img {
+    object-fit: cover;
+    transition: transform .2s;
+    margin-left: 1rem;
+}
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    margin-bottom: 1rem;
+    color: white;
+    transform: scale(1.20);
+    transition: transform .2s;
+}
+.carousel-control-prev-icon:hover, 
+.carousel-control-next-icon:hover {
+    transform: scale(1.40);   
 }
